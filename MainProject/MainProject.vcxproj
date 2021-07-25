@@ -86,7 +86,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -139,10 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Labolatornaya__6.cpp" />
     <ClCompile Include="Laboratornaya__2.cpp" />
     <ClCompile Include="Laboratornaya__3.cpp" />
     <ClCompile Include="Laboratornaya__4.cpp" />
     <ClCompile Include="Laboratornaya__5.cpp" />
+    <ClCompile Include="Laboratornaya__7.cpp" />
+    <ClCompile Include="Laboratornaya__8.cpp" />
     <ClCompile Include="MainProject.cpp" />
     <ClCompile Include="Laboratornaya__1.cpp" />
   </ItemGroup>

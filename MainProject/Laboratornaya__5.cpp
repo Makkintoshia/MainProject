@@ -45,7 +45,7 @@ int Laboratornaya__5()
 	vector <char> vector_first;
 	vector <char> vector_second;
 	vector <char> vector_third;
-
+	vector <vector<int> > vector_array;
 	int x;
 	int y;
 	int z;
@@ -54,9 +54,9 @@ int Laboratornaya__5()
 	{
 		if (buf[i] == '?' || (buf[i]) == '!' || (buf[i]) == '.')
 		{
-			for (j = n, m = 0;j <= i;j++)//Перенёс счетчик m++ в 64 строку
+			for (j = n, m = 0;j <= i;j++)
 			{
-				if (buf[j] != '\n')   //   Добавил условие 
+				if (buf[j] != '\n')   
 				{
 
 
